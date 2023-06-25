@@ -1,11 +1,17 @@
 modbus4j
 ========
 DataType说明：
+
 DataType.FOUR_BYTE_FLOAT =float大端
+
 DataType.FOUR_BYTE_FLOAT_SWAPPED=float小端
+
 DataType.EIGHT_BYTE_FLOAT=double大端
+
 DataType.EIGHT_BYTE_FLOAT_SWAPPED=double小端
+
 DataType.FOUR_BYTE_INT_SIGNED=long大端
+
 DataType.FOUR_BYTE_INT_SIGNED_SWAPPED=long小端
 
 A high-performance and ease-of-use implementation of the Modbus protocol written in Java by Infinite Automation Systems and Serotonin Software. Supports ASCII, RTU, TCP, and UDP transports as slave or master, automatic request partitioning and response data type parsing.
